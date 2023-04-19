@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya gaur-462386256</title>
+    <link rel="Icon" href="Mine.png">
+    <link rel="stylesheet" href="Site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <header>
+        <div class="header">
+            <a href="http://127.0.0.1:5500/Site.html"> <img src="Mine.png" alt="logo" ></a>
+            <a href="http://127.0.0.1:5500/Site.html"> <h1>My Portfolio </h1>    </a>
+          </div>
+    </header>
+    <hr size="1" width="100%" color="grey">  
+    <nav class="nav">
+      <span style="color: aliceblue;"  onclick="openNav()";<i class="fa fa-fw fa-bars"></i>  </span> &nbsp;
+      <a class="al" href="http://127.0.0.1:5500/Site.html"><i class="fa fa-fw fa-home"></i>  Home    </a>|
+      <a class="al" href="http://127.0.0.1:5500/menu.html"><i class="fa fa-fw fa-clipboard"></i>Menu</a> |
+      <a class="al" href="http://127.0.0.1:5500/about.html"><i class="fa fa-fw fa-address-card"></i>   About    </a>|
+      <a class="al" href="http://127.0.0.1:5500/contact.html"><i class="fa fa-fw fa-envelope"></i>   Contact    </a>|
+      <!-- <input class="search" style="background-color: rgb(213, 172, 122);" type="text" placeholder="Search..."> -->
+  </nav>  
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="al"  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="al" href="#">About</a>
+      <a class="al" href="#">Services</a>
+      <a class="al"  href="#">Clients</a>
+      <a class="al"  href="#">Contact</a>
+      <a class="al" href="#">Setting</a>
+    </div>
+    <div class="come">
+        <img class="yt" src="png-transparent-eventloop-servic-removebg-preview.png" height="290px">
+        
+            
+                <label class="contact" for="fname">Name:</label><br> 
+                <input class="in" type="text" id="fname" name="fname" placeholder="Name" required><br> <br> <br>
+                <label class="contact" for="lname">Email:</label><br> 
+                <input class="in" type="text" id="lname" name="lname" placeholder="Email" required> <br> <br> <br>
+                <label class="contact" for="lname">Message:</label><br> 
+                <textarea class="im" type="text" id="lname" name="lname" placeholder="Message"></textarea> <br> <br> <br>  
+                <button class="b2" onclick="myfunction()" style="background-color:rgb(226, 176, 82); height: 30px;">Submit </button>
+                <a href=""></a>    
+    </div>
+<footer>
+    <hr size="1" width="100%" color="grey"> 
+    <p1 class="last">Thank You for visiting </p1>|
+    <a class="end" href="https://www.termsandconditionsgenerator.com/live.php?token=CkZdEFw59yrL6zzHVBLiPrVvgY7XmQ1P" target="_blank">Copyright | Terms and Conditions</a> <br> <br>
+
+    <a class="insta" href="https://www.instagram.com/aaditya.gaur21/" target="_blank"> <img src="instagram-logo.png" width="30px" height="30px"></a>&nbsp; &nbsp; &nbsp;
+    <a class="lk" href="https://www.linkedin.com/in/aaditya-gaur-462386256/" target="_blank"> <img src="linkedin.png" width="30px" height="30px"></a>&nbsp; &nbsp; &nbsp;
+    <a class="fb" href="https://www.facebook.com/profile.php?id=100053188941932"target="_blank"> <img src="facebook.png" width="30px" height="30px"></a>&nbsp; &nbsp; &nbsp;
+    <a class="git" href="https://github.com/Aaditya2110" target="_blank"> <img src="github.png" width="30px" height="30px"> </a>&nbsp; &nbsp; &nbsp;
+    <a class="tw" href="https://twitter.com/home?lang=en" target="_blank"> <img src="twitter-sign.png" width="30px" height="30px"></a>
+</footer>
+</body>
+<!-- <script src="Site.js"></script> -->
+</html>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+ScrollReveal().reveal('.header',{dealy:300})
+ScrollReveal().reveal('.nav',{dealy:500})
+ScrollReveal().reveal('.contact',{dealy:800})
+ScrollReveal().reveal('.in',{delay: 800})
+ScrollReveal().reveal('.im',{delay: 800})
+ScrollReveal().reveal('.last',{delay: 1300})
+ScrollReveal().reveal('.end',{delay: 1500})
+ScrollReveal().reveal('.insta',{delay: 1600})
+ScrollReveal().reveal('.lk',{delay: 1700})
+ScrollReveal().reveal('.fb',{delay: 1800})
+ScrollReveal().reveal('.git',{delay: 1900})
+ScrollReveal().reveal('.tw',{delay: 2000})
+ScrollReveal().reveal('.yt',{delay: 1600})
+
+</script>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
